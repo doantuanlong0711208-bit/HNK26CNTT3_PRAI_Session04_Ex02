@@ -1,0 +1,13 @@
+{
+  "status": "MISSING_INFO",
+  "extracted_data": {
+    "customer_name": "Mai",
+    "order_id": "null",
+    "product": "Tai nghe",
+    "purchase_date": "null",
+    "issue": "Tịt 1 bên"
+  },
+  "chain_of_thought": "B1: Trích xuất thông tin. B2: Thiếu Mã đơn hàng và Ngày mua -> Kích hoạt bẫy lỗi. Dừng B3 (không tính toán ngày). Chuyển thẳng sang B4: Viết email yêu cầu bổ sung thông tin.",
+  "decision": "Yêu cầu bổ sung Mã ĐH và Ngày mua",
+  "email_draft": "Chào chị Mai, TechNova rất tiếc về sự cố tai nghe của chị. Để hỗ trợ bảo hành nhanh nhất, chị vui lòng cung cấp thêm Mã đơn hàng và Ngày mua sản phẩm để hệ thống kiểm tra chính sách nhé. Trân trọng!"
+}
